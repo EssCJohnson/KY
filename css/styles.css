@@ -1,1 +1,254 @@
+/* CSS RESET */
+body, header, nav, main, p, footer, img, h1, h3, figure, figcaption, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/* Style for mobile viewport */
+
+
+@media screen and (max-width: 600px), print {
+.mobile {
+	display: block;
+	}
+.tablet {
+	display: none;
+	}
+.desktop {
+	display:none;
+	}
+	
+	/* Style for background */
+body {
+	background-color: gray !important;
+	}
+
+
+
+/* Style for images */
+img {
+	max-width: 100%;
+	display: inherit;
+	}
+
+
+/* style for header area */
+.mobile h1, .mobile h3 {
+	padding: 2%;
+	text-align: center;
+	}
+
+.mobile h1 {
+	font-family: 'Cormorant Garamond', serif;
+	margin: 0 0 0 0;
+	}
+
+.mobile h3 {
+	font-family: 'Roboto', sans-serif;
+	}	
+
+}
+
+
+/* Style for Tablet viewport */
+
+@media screen and (min-width:600px), print {
+.tablet {
+	display: block;
+	}
+.mobile {
+	display: none;
+	}
+	
+.desktop {
+	display:none;
+	}
+
+	/* Style for background */
+body {
+	background-color: white !important;
+	}
+
+
+
+/* Style for images */
+img {
+	max-width: 100%;
+	display: inherit;
+	}
+
+
+/* style for header area */
+.tablet h1, .tablet h3 {
+	padding: 2%;
+	text-align: center;
+	}
+
+.tablet h1 {
+	font-family: 'Cormorant Garamond', serif;
+	margin: 0 0 0 0;
+	}
+
+.tablet h3 {
+	font-family: 'Roboto', sans-serif;
+	}	
+
+}
+
+
+/* Style for Desktop viewport */
+
+@media screen and (min-width: 992px), print {
+.desktop {
+	display: block;
+	}
+.mobile {
+	display: none;
+	}
+.tablet {
+	display: none;
+	}
+body{
+	background-color: #1f471f !important;
+	}
+.desktop h1, .desktop h3 {
+		text-align: center;
+		padding: 2%;
+	}		
+
+.desktop h1 {
+	font-color: #2F4F4F;
+	font-family: 'Cormorant Garamond', serif;
+	margin: 0 0 0 0;
+	}
+
+.desktop h3 {
+		font-family: 'Roboto', sans-serif;
+	}	
+}
+/* Style for header */
+header {
+	margin: 0 5 0 0; 
+	border: 0 0 0 0;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 10px; 
+	text-align: center;
+	float: left;
+	color: lightsteelblue;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	}
+header img {
+	margin: 0 auto;
+	}
+/* Style rules navigation */
+nav {
+	font-family: 'Cormorant Garamond', serif;
+	background-color: black;
+	text-align: center;
+	float: center;	
+	}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 8%;
+    text-align: center;
+	
+	}
+ 
+nav li {
+    display: inline-block;
+    font-size: 1em;
+       
+	}
+ 
+nav li a {
+    
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none; 
+    font-size: 18px;
+    list-style-type: none;
+		
+	}
+ nav li a:hover {
+    color: aquamarine;
+    background-color: black;
+  }
+main {
+    padding: 2rem;
+    margin: 0 0 5em 5em; 
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+    color: lightsteelblue;
+    clear: left;
+    text-align: center;  
+    
+	}
+ 
+main p {
+	padding: 2rem;
+    font-size: 1.25em;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: left;
+	display: block;
+	
+
+	}
+
+figure {
+	border: 4px solid lightsteelblue;
+	box-shadow: 6px 6px 6px black;
+	max-width: 400px;
+	margin: 2% auto;
+
+	}
+
+figcaption {
+	
+  padding: 2%;
+  border-top: 4px solid black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-color: #2F4F4F;
+	}
+
+
+/* Style rules for contact */
+#contact {
+    text-align: center;
+	text-decoration: none;
+		
+	}
+ 
+#contact a {
+    color:  thistle;
+    text-decoration: none;
+    font-weight: bold;
+	}
+
+/* Style rules for footer */
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;  
+}
+ 
+footer a {
+    color: thistle;
+    text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	}
+
+
 
